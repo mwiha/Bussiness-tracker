@@ -39,3 +39,27 @@ Alice Mwihaki
 - Flask
 - Bootsrap
 
+## Running the application
+
+* Modify the start.sh file with your own api key
+* To run the app type the commands in your terminal
+ install all the dependencies listed in the requirements.txt file
+> $ chmod a+x start.sh
+>
+> $ ./start.sh
+
+## Testing the appication
+
+* To run the tests for the class in your terminal
+ > $ python3.6 manage.py test
+
+## Known Bugs
+
+- The side bar is not functioning
+
+## Contacts
+
+- For more information :
+alicemwihaki99@gmail.com
+
+
