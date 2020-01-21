@@ -1,1 +1,1 @@
-web: gunicorn manage:flaskblog
+web: gunicorn manage:app
