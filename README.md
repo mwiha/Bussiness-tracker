@@ -6,7 +6,7 @@ Alice Mwihaki
 
 ## Description
 
-- This is a blog website where you can create and share you thoughts.
+- TheBlog is a web application that allows users to express themselves through writing articles and posting the in the application.
 
 ## Features
 
@@ -19,7 +19,6 @@ Alice Mwihaki
 3.You can create an account,login and update your profile
 
 4.post your own blog
-
 
 ## BDD
 
@@ -41,8 +40,8 @@ Alice Mwihaki
 
 ## Running the application
 
-* Modify the start.sh file with your own api key
-* To run the app type the commands in your terminal
+Modify the start.sh file with your own api key.
+To run the app type the commands in your terminal
  install all the dependencies listed in the requirements.txt file
 > $ chmod a+x start.sh
 >
@@ -50,7 +49,7 @@ Alice Mwihaki
 
 ## Testing the appication
 
-* To run the tests for the class in your terminal
+To run the tests for the class in your terminal
  > $ python3.6 manage.py test
 
 ## Known Bugs
@@ -62,4 +61,6 @@ Alice Mwihaki
 - For more information :
 alicemwihaki99@gmail.com
 
+## Licence
 
+This project is Licensed under MIT. ©2019 Copyright.
