@@ -55,6 +55,7 @@ To run the tests for the class in your terminal
 ## Known Bugs
 
 - The side bar is not functioning
+- the about page is not loading
 
 ## Contacts
 
