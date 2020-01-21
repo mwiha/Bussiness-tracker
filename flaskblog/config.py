@@ -6,7 +6,7 @@ import os
 class Config:
     debug = True
     SECRET_KEY = os.environ.get('SECRET_KEY')
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:blog56@localhost/blog5'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///blogger.db'
     #  email configurations
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 465
