@@ -52,6 +52,8 @@ To run the tests for the class in your terminal
 ## Known Bugs
 
 - The side bar is not functioning
+- The buttons are not functioning
+- Unable to post list of items
 
 ## Future implements
 
