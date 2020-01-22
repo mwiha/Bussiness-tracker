@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>products:</h1>
+<div class="card-deck">
+  <div class="card">
+    <img src="{{ url_for('static', filename='profile_pics/food-products.jpg') }}" class="card-img-top " alt="">
+    <div class="card-body">
+      <h5 class="card-title">Food stuffs</h5>
+      <p class="card-text">click the button to choose food stuff.</p>
+      <button class="button">button</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://bit.ly/2TMa8A8" class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">click on the button to choose clothings.</p>
+      <button class="button">button</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{{ url_for('static', filename='profile_pics/spare products.peg') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">clickon the button to choose spare parts.</p>
+      <button class="button">button</button>
+    </div>
+  </div>
+</div>
+{% endblock content %}
